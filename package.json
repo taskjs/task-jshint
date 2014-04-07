@@ -1,0 +1,31 @@
+{
+  "name": "task-jshint",
+  "version": "0.1.0",
+  "main": "lib/jshint.js",
+  "description": "Validate files with JSHint.",
+  "homepage": "https://github.com/taskjs/task-jshint",
+  "bugs": "https://github.com/taskjs/task-jshint/issues",
+  "author": {
+    "name": "Yuanyan Cao",
+    "email": "yuanyan.cao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskjs/task-jshint"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [
+    "task"
+  ],
+  "dependencies": {
+    "execution": "^0.1.1",
+    "jshint": "^2.5.0"
+  },
+  "scripts": {
+    "test": "node test/jshint_test"
+  }
+}
